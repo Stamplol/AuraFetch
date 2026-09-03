@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pylintrc
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.conda/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+*.spec.bak
+
+# PyInstaller
+*.manifest
+*.pyinstaller/
+AuraFetch.spec.bak
+
+# Compiled binaries
+*.exe
+*.app
+*.dmg
+AuraFetch
+AuraFetch-*
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Logs & OS
+*.log
+*.tmp
+.cache/
+mypy_cache/
+.pytest_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+
+# App specific
+downloads/
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.mkv
+ffmpeg/
+ffprobe/
+cookies.txt
